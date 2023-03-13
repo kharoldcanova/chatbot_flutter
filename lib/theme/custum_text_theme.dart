@@ -5,11 +5,15 @@ import 'package:google_fonts/google_fonts.dart';
 TextTheme customText = GoogleFonts.poppinsTextTheme(TextTheme(
   headlineLarge: TextStyle(
     color: MyColors.whitePalette[700],
-    fontWeight: FontWeight.w400,
+    fontWeight: FontWeight.w200,
+  ),
+  headlineMedium: TextStyle(
+    color: MyColors.whitePalette[700],
+    fontWeight: FontWeight.w200,
   ),
   headlineSmall: TextStyle(
     color: MyColors.whitePalette[700],
-    fontWeight: FontWeight.w600,
+    fontWeight: FontWeight.w200,
   ),
   titleLarge: TextStyle(
     color: MyColors.whitePalette[700],
@@ -17,11 +21,11 @@ TextTheme customText = GoogleFonts.poppinsTextTheme(TextTheme(
   ),
   titleMedium: TextStyle(
     color: MyColors.whitePalette[700],
-    fontWeight: FontWeight.w600,
+    fontWeight: FontWeight.w200,
   ),
   titleSmall: TextStyle(
     color: MyColors.whitePalette[700],
-    fontWeight: FontWeight.w600,
+    fontWeight: FontWeight.w200,
   ),
   labelLarge: TextStyle(
     color: MyColors.whitePalette[500],

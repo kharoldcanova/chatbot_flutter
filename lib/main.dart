@@ -1,4 +1,4 @@
-import 'package:chatbot_flutter/screens/home_screen.dart';
+import 'package:chatbot_flutter/screens/start_screen.dart';
 import 'package:chatbot_flutter/theme/custom_theme.dart';
 import 'package:flutter/material.dart';
 
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: customTheme,
-      home: const HomeScreen(),
+      home: const StartScreen(),
     );
   }
 }
